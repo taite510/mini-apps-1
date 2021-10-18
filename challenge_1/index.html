@@ -1,2 +1,45 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    th {
+      border: 2px solid, black;
+      width: 30px;
+      height: 30px;
+      max-width: 30px;
+      max-height: 30px;
+    }
+    th:hover {
+      cursor: pointer;
+    }
+    tr:nth-of-type(even) th:nth-of-type(even){
+    background-color: rgb(168, 168, 168);
+    }
+    tr:nth-of-type(odd) th:nth-of-type(odd){
+    background-color: rgb(168, 168, 168);
+    }
+  </style>
+  <title>Tic-Tac-Toe</title>
+</head>
+<body>
+  <table>
+    <tr>
+      <th class='square'></th>
+      <th class='square'></th>
+      <th class='square'></th>
+    </tr>
+    <tr>
+      <th class='square'></th>
+      <th class='square'></th>
+      <th class='square'></th>
+    </tr>
+    <tr>
+      <th class='square'></th>
+      <th class='square'></th>
+      <th class='square'></th>
+    </tr>
+  </table>
+  <script src='./app.js'></script>
+</body>
+</html>
 
